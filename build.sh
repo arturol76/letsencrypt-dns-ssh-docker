@@ -1,7 +1,7 @@
 #example:
 #./build.sh 192.168.2.96
 
-IMAGE_NAME = arturol76/letsencrypt-dns-ssh
+IMAGE_NAME=arturol76/letsencrypt-dns-ssh
 
 echo building...
 docker -H $1 build -t $IMAGE_NAME .
